@@ -1,6 +1,7 @@
 {
   "defaultSrc": [
-    "'self'"
+    "'self'",
+    "data:"
   ],
   "scriptSrc": [
     "'self'",
@@ -8,7 +9,9 @@
     "data:",
     "https://translate.googleapis.com/",
     "https://www.google-analytics.com",
-    "https://www.googletagmanager.com"
+    "https://www.googletagmanager.com",
+    "https://cuteid-widget-dev.zdev1.com",
+    "https://cuteid-api.zdev1.com/"
   ],
   "styleSrc": [
     "'self'",
@@ -23,12 +26,16 @@
     "'self'",
     "https://buy.moonpay.com/",
     "https://verify.walletconnect.com/",
-    "https://verify.walletconnect.org/"
+    "https://verify.walletconnect.org/",
+    "https://cuteid-widget-dev.zdev1.com",
+    "https://cuteid-api.zdev1.com/"
   ],
   "connectSrc": [
     "'self'",
     "blob:",
     "data:",
+    "https://cuteid-widget-dev.zdev1.com",
+    "https://cuteid-api.zdev1.com/",
     "https://*.alchemy.com",
     "https://*.arbitrum.io",
     "https://*.base.org/",

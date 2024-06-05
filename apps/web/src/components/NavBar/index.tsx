@@ -151,6 +151,7 @@ const Navbar = ({ blur }: { blur: boolean }) => {
           </Box>
           <Box className={styles.rightSideContainer}>
             <Row gap="12">
+              <cuteid-widget />
               <Box
                 data-cy="right-search-container"
                 position="relative"

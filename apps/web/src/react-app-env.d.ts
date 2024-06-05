@@ -58,3 +58,9 @@ declare module 'react-scroll-sync' {
   export const ScrollSync: React.FC<ScrollSyncProps>
   export const ScrollSyncPane: React.FC<ScrollSyncPaneProps>
 }
+
+declare namespace JSX {
+  interface IntrinsicElements {
+    'cuteid-widget': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
+  }
+}
